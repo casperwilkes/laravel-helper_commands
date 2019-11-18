@@ -1,0 +1,34 @@
+{
+    "name": "casperwilkes/laravel-helper_commands",
+    "description": "A set of useful artisan commands to help with development, deployment, and building your own commands quickly.",
+    "keywords": [
+        "artisan",
+        "command",
+        "laravel",
+        "build"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Casper Wilkes",
+            "email": "casper@casperwilkes.net",
+            "homepage": "http://casperwilkes.net",
+            "role": "Software Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HelperCommands\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HelperCommands\\HelperCommandServiceProvider"
+            ]
+        }
+    }
+}
